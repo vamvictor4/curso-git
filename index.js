@@ -39,6 +39,10 @@ const renderHtml = (user, posts) => {
     })
 }
 
+const loadsAds = () => {
+  console.log('Ads loaded');
+}
+
 const getBlogContent = async () => {
   try {
     const user = await getUser(1);
